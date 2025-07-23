@@ -1,5 +1,7 @@
 package homeworks.java.cosmo.string;
 
+
+
 /**
  * Напишите программу,
  * которая на вход получает строку “Мама мыла Милу мылом!” и выводит количество слов в ней.
@@ -10,6 +12,7 @@ package homeworks.java.cosmo.string;
 public class ExC {
     public static void main(String[] args) {
         String input = "Мама мыла Милу мылом!";
-
+        String[] arr = input.split(" ");
+        System.out.println(arr.length);
     }
 }
